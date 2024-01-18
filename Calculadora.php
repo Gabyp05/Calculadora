@@ -159,16 +159,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         border: none;
         border-radius: 10px;
     }
-    .nota{
-        position: absolute;
-        width: 300px;
-        height: 200px;
-        margin-top: 25px;
-        margin-left: 30%;
-        border-radius: 10px;
-        background: rgba( 255, 255, 255, 0.4 );
-        
-    }
+    
     
 </style>
 <body>
@@ -213,10 +204,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     </form>
     </div>
 </div>
-<div class="nota">
-    <h3>NOTA</h3>
-    <p>"La especificación de JSON no es JavaScript, pero sí un subconjunto de JavaScript".</p>
-    <h3>Referencia: </h3><a href="https://www.php.net/manual/es/function.json-decode.php"target="_blank">Manual PHP</a>
-</div>
+
 </body>
 </html>
